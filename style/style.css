@@ -1,0 +1,185 @@
+*@font-face {
+    font-family: myfont;
+    src: url(../);
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: myfont;
+}
+.container{
+    height: 600px;
+}
+.bg-gray{
+    background-color: #e5e5e5;
+}
+.flex{
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+.align-items{
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    width: 50%;
+}
+.image{
+ height: 600px;   
+ width: 50%;
+ justify-content: end;
+ display: flex;
+}
+.content h1{
+ margin: 0; 
+ font-size: 4rem;  
+ font-weight: 300;
+}
+content p{
+ margin-bottom: 15px;   
+}
+.extra{
+    margin-bottom: 50px !important;
+    margin-top: 15px !important;
+}
+.content a{
+    color: black;
+    font-weight: 600;
+}
+.section_1{
+    width: 50%;
+}
+.bg_img_1{
+background-image: url(../images/shirt-2.jpg);
+height: 530px;
+width: 50%;
+background-size: cover;
+background-position: center;
+}
+.m_t_b{
+height: 750px;
+}
+.bg_img_2{
+background-image: url(../images/shirt-1.jpg);
+height: 250px;
+margin-bottom: 30px;
+}
+.content_2{
+    height: 250px;
+}
+.content_2 p{
+    margin: 0;
+}
+.content_2 h1{
+    margin: 0;
+}
+.big_sale{
+    margin-bottom: 30px !important;
+}
+.font-bold{
+  font-weight: 300;  
+  font-size: 3rem;
+  margin-bottom: 20px ;
+}
+.bg_img_3{
+background-image: url(../images/dress-1.jpg);
+height: 530px;
+width: 50%;
+background-size: cover;
+background-position: center;
+}
+.bg_img_4{
+background-image: url(../images/dress-2.jpg);
+height: 250px;
+background-repeat: no-repeat;
+margin-bottom: 30px;
+}
+.bg_img_5{
+background-image: url(../images/background-section-4-1.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+position: relative;
+}
+.overlay{
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: ;
+}
+.bg_img_6{
+    background-image: url(../images/01-450x572.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+.text_hoder{
+    position: absolute;
+    bottom: -70%;
+}
+.text_holder h2{
+    font-size: 1rem;
+}
+.absolute{
+    position: absolute;
+    bottom: -50%;
+    left: 15%;
+}
+.g-10{
+    gap: 15px;  
+}
+
+
+@media screen and (max-width: 768px) {
+.mobile_flex{
+    flex-direction: column;
+    width: 95%;
+    gap: 0;
+}
+.section_1{
+    width: 95%;
+}
+.bg_img_1{
+    width: 95%;
+}
+.m_t_b{
+height: 1250px;
+}
+.absolute{
+    top: 30%;
+    bottom: 0;
+}
+.bg_img_6{
+    height: 300px;
+}
+.image_holder{
+    height: 300px;
+}
+.content{
+    font-size: 20px;
+}
+.big_sale{
+
+}
+}
+@media screen and (max-width: 425px){
+
+ .img{
+  width: 100px; 
+ }
+ .big_sale{
+    font-size: 10px;
+}
+}
+./*.m_t_b{
+    height: 500px;
+}
+}
